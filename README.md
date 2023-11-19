@@ -1,6 +1,7 @@
 ### `Getting Started`
 
 ## Hosted this solution on Netlify
+** https://terribliytinytales.netlify.app
 
 ### `Prerequisites`
 
