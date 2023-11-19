@@ -1,5 +1,7 @@
 ### `Getting Started`
 
+## Hosted this solution on Netlify
+
 ### `Prerequisites`
 
 **Node.js installed on your machine.
