@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css';
-import ProfilePage from './components/ProfilePage';
+import ProfilePage from './components/ProfilePage'; 
 
 function App() {
   return (
