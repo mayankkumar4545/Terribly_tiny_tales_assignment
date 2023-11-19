@@ -1,0 +1,79 @@
+.userAnalytics{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.userAnalytics p{
+    margin: 0;
+}
+
+.userAnalytics img{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.profileImg{
+    border-radius: 50%;
+}
+
+.userCount{
+display:flex;
+gap: 20px;
+color: rgb(179, 179, 179);
+}
+
+.userCount h2{
+    border: 2px solid rgb(179, 179, 179);
+    border-radius: 10px;
+}
+
+.userProfile{
+    display: flex;
+    gap: 30px;
+}
+
+.userProfile>div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+
+.userProfile div h2{
+    margin: 0;
+    text-align: center;
+}
+
+
+.profileDetail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.profileDetail p{
+    margin: 0;
+}
+
+.profileDetail a{
+    text-decoration: none;
+    color: lightblue;
+}
+
+.profileDetails{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* @media only screen and (max-width: 600px) {
+    .profileDetails {
+      
+    }
+  } */

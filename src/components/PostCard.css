@@ -1,0 +1,36 @@
+.postCard{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.postHead, .postDetail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.postHead img{
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+}
+.postDetail ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.postTag{
+    font-weight: bold;
+}
+.postTag span{
+    color: lightblue;
+}
+
+.postDesc{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden; 
+    text-align: left;
+}

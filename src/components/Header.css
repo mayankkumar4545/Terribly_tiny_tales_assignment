@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(17, 17, 17);
+    padding: 10px 30px;
+}
+
+.courses{
+    color: black;
+    background-color: rgb(255, 194, 62);
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
