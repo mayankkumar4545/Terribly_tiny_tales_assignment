@@ -1,58 +1,66 @@
-# Getting Started
+### `Getting Started`
 
-Prerequisites
-   ** Node.js installed on your machine.
+### `Prerequisites`
 
-
-** Installation
-    1. Clone the repository:
-          git clone https://github.com/mayankkumar4545/terribly_tiny_tales.git
+**Node.js installed on your machine.
 
 
-2. Navigate to the project directory:
-### cd terribly_tiny_tales
+### `Installation`
+
+Clone the repository:
+git clone https://github.com/mayankkumar4545/terribly_tiny_tales.git
 
 
-3. Install dependencies:
-### npm install
+### `cd terribly_tiny_tales`
+Navigate to the project directory:
 
 
-4. Start the development server:
-### npm start
+### `npm install`
 
-
-** The application will be accessible at http://localhost:3000.
-
-Usage
-
-   1. Access the user profile page by navigating to http://localhost:3000/profile.
-
-   
-   2. Explore the user's profile details and view the displayed posts.
-
-
-Components
-
-Header
-  ** The 'Header' component provides the navigation header for the application.
-
-
-ProfileDetail
-   ** The 'ProfileDetail' component displays detailed information about the user, including a profile picture, follower counts, and user analytics.
-
-
-PostCard
-   ** The 'PostCard' component is responsible for rendering individual post cards. It takes post data as a prop and displays the post title, description, and additional details.
-
-
-Data Sources
- 1. User data is imported from 'user.json'.
- 2. Post data is imported from 'posts.json'.
+Install dependencies
 
 
 
-Styling
- ** Styling for the components is implemented using CSS files:
+### `npm start`
+
+Start the development server:
+
+
+The application will be accessible at http://localhost:3000.
+
+## Usage
+
+1. Access the user profile page by navigating to http://localhost:3000/profile.
+2. Explore the user's profile details and view the displayed posts.
+
+
+### `Components`
+
+### Header
+
+The 'Header' component provides the navigation header for the application.
+
+## ProfileDetail
+
+The 'ProfileDetail' component displays detailed information about the user, including a profile picture, follower counts, and user analytics.
+
+
+## PostCard
+
+
+The 'PostCard' component is responsible for rendering individual post cards. It takes post data as a prop and displays the post title, description, and additional details.
+
+
+## Data Sources
+1. User data is imported from 'user.json'.
+2. Post data is imported from 'posts.json'.
+
+
+
+## Styling
+
+
+Styling for the components is implemented using CSS files:
 
 1. 'Header.css'
 2. 'ProfileDetail.css'
